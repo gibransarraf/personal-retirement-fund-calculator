@@ -1,0 +1,83 @@
+body {
+  font-size: 14px;
+}
+canvas {
+  margin: 0;
+  background-color: #212529;
+}
+
+.card {
+  box-shadow: 0 10px 20px 5px rgba(0, 0, 0, 0.3);
+}
+
+pre {
+  tab-size: 2;
+  font-size: 12px;
+  line-height: 1.1;
+  margin-bottom: 0;
+}
+
+.table {
+  font-size: 12px;
+  line-height: 1.1;
+  margin-bottom: 0;
+}
+
+.table-striped > tbody > tr:nth-of-type(odd) > * {
+  color: gray;
+}
+
+.ecuacion {
+  display: flex;
+  margin: 10px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.ecuacion span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.ecuacion .division {
+  display: flex;
+  padding: 0 5px;
+  flex-direction: column;
+}
+.ecuacion .division span:first-child {
+  border-bottom: 1px solid rgb(108, 117, 125);
+}
+.ecuacion .parentesis {
+  width: 15px;
+  height: 60px;
+  border-radius: 100%;
+}
+.ecuacion .parentesis.l {
+  margin-left: 5px;
+  border-left: 2px solid rgb(108, 117, 125);
+}
+.ecuacion .parentesis.r {
+  margin-right: 5px;
+  border-right: 2px solid rgb(108, 117, 125);
+}
+.ecuacion .elevado {
+  margin-right: 5px;
+}
+.ecuacion .fondo {
+  padding-left: 5px;
+  font-weight: bold;
+}
+
+.form-range::-webkit-slider-thumb {
+  background-color: lightgrey;
+}
+
+.form-range::-webkit-slider-runnable-track {
+  background-color: gray;
+}
+
+.form-control {
+  font-weight: bold;
+  border-color: gray;
+  background-color: lightgray;
+}
